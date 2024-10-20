@@ -1499,6 +1499,432 @@ img {
   
 } 
 
+@media only screen and (min-width: 620px) {
+  
+  .hero__img {
+    width: 575px;
+  }
+  
+  .hero__text-wrapper {
+    left: 140px;
+  }
+  
+  .hero__title {
+    font-size: 35px;
+  }
+  
+  .hero__desc {
+    font-size: 20px;
+  }
+  
+  .form {
+    top: 450px;
+    left: 50px;
+  }
+  
+  .form__search {
+    width: 490px;
+    font-size: 20px;
+  }
+  
+  .form__btn {
+    left: 433px;
+    top: -56px;
+  }
+  
+  
+  
+  
+  .dreamcar__title {
+    font-size: 29px;
+    margin-bottom: 12px;
+  }
+  
+  .dreamcar__desc {
+    font-size: 20px;
+  }
+  
+  .dreamcar__menu-wrapper {
+    margin-top: 50px;
+  }
+  
+  .dreamcar__list {
+    width: 400px;
+  }
+  
+  .dreamcar__link {
+    font-size: 19px;
+  }
+
+  .dreamcar__view-link {
+    font-size: 25px;
+  }
+  
+
+
+  .cars__title {
+    font-size: 35px;
+  }
+  
+  .cars__desc {
+    font-size: 20px;
+  }
+  
+  .features {
+    width: 500px;
+    column-gap: 215px;
+  }
+
+  .features__item {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .cars {
+    row-gap: 20px;
+  }
+  
+  .cars__item {
+    width: 540px;
+  }
+  
+  .cars__img {
+    width: 525px;
+    height: 315px;
+  }
+  
+  .service__text-wrapper {
+    width: 400px;
+  }
+  
+  .service__title {
+    font-size: 35px;
+    margin-bottom: 12px;
+  }
+  
+  .service__desc {
+    font-size: 20px;
+  }
+  
+  .service__list {
+    row-gap: 20px;
+  }
+  
+  .service__item {
+    width: 530px;
+  }
+
+  .service__list-title {
+    font-size: 35px;
+  }
+
+  .service__list-desc {
+    font-size: 19px;
+    line-height: 30px;
+  }
+
+  .safe__text-wrapper {
+    width: 500px;
+  }
+
+  .safe__title {
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+  
+  .safe__desc {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .safe__list-desc {
+    font-size: 18px;
+    line-height: 40px;
+  }
+
+  .safe__item:nth-child(1)::after {
+    width: 45px;
+    height: 45px;
+  }
+
+  .safe__item:nth-child(2)::after {
+    width: 45px;
+    height: 45px;
+  }
+
+  .safe__item:nth-child(3)::after {
+    width: 45px;
+    height: 45px;
+  }
+
+  /* google  */
+
+  .community__span {
+    font-size: 25px;
+  }
+
+  .community__span::before {
+    width: 50px;
+    height: 50px;
+    background-position: 0 13px;
+  }
+
+  .community__title {
+    font-size: 44px;
+    line-height: 60px;
+  }
+  
+  .community__decs {
+    font-size: 22px;
+  }
+
+  .community__user::before {
+    width: 44px;
+    height: 44px;
+  }
+
+  .community__user::after {
+    width: 44px;
+    height: 44px;
+  }
+
+  .user__title {
+    font-size: 19px;
+  }
+
+  .user__link {
+    font-size: 15px;
+  }
+
+  .stars__item {
+    width: 30px;
+    height: 30px;
+  }
+
+
+} 
+
+@media only screen and (min-width: 637px) {
+  
+  .hero__img {
+    width: 575px;
+  }
+  
+  .hero__text-wrapper {
+    left: 130px;
+    width: 350px;
+  }
+  
+  .hero__title {
+    font-size: 39px;
+  }
+  
+  .hero__desc {
+    font-size: 21px;
+  }
+  
+  .form {
+    top: 450px;
+    left: 36px;
+  }
+  
+  .form__search {
+    width: 525px;
+    font-size: 20px;
+  }
+  
+  .form__btn {
+    left: 466px;
+    top: -57px;
+  }
+  
+  .dreamcar__title-wrap {
+    width: 300px;
+  }
+  
+  .dreamcar__title {
+    font-size: 33px;
+    margin-bottom: 12px;
+  }
+
+  .dreamcar__text-wrapper {
+    width: 400px;
+  }
+  
+  .dreamcar__desc {
+    font-size: 25px;
+  }
+  
+  .dreamcar__menu-wrapper {
+    margin-top: 50px;
+  }
+  
+  .dreamcar__list {
+    width: 400px;
+  }
+  
+  .dreamcar__link {
+    font-size: 19px;
+  }
+
+  .dreamcar__view-link {
+    font-size: 25px;
+  }
+  
+
+
+  .cars__title {
+    font-size: 35px;
+  }
+  
+  .cars__desc {
+    font-size: 20px;
+  }
+  
+  .features {
+    width: 500px;
+    column-gap: 215px;
+  }
+
+  .features__item {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .cars {
+    row-gap: 20px;
+  }
+  
+  .cars__item {
+    width: 540px;
+  }
+  
+  .cars__img {
+    width: 525px;
+    height: 315px;
+  }
+  
+  .service__text-wrapper {
+    width: 400px;
+  }
+  
+  .service__title {
+    font-size: 35px;
+    margin-bottom: 12px;
+  }
+  
+  .service__desc {
+    font-size: 20px;
+  }
+  
+  .service__list {
+    row-gap: 20px;
+  }
+  
+  .service__item {
+    width: 530px;
+  }
+
+  .service__list-title {
+    font-size: 35px;
+  }
+
+  .service__list-desc {
+    font-size: 19px;
+    line-height: 30px;
+  }
+
+  .safe__text-wrapper {
+    width: 500px;
+  }
+
+  .safe__title {
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+  
+  .safe__desc {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .safe__list-desc {
+    font-size: 18px;
+    line-height: 40px;
+  }
+
+  .safe__item:nth-child(1)::after {
+    width: 45px;
+    height: 45px;
+  }
+
+  .safe__item:nth-child(2)::after {
+    width: 45px;
+    height: 45px;
+  }
+
+  .safe__item:nth-child(3)::after {
+    width: 45px;
+    height: 45px;
+  }
+
+  /* google  */
+
+  .community__span {
+    font-size: 25px;
+  }
+
+  .community__span::before {
+    width: 50px;
+    height: 50px;
+    background-position: 0 13px;
+  }
+
+  .community__title {
+    font-size: 44px;
+    line-height: 60px;
+  }
+  
+  .community__decs {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+  }
+
+  .community__user::before {
+    width: 44px;
+    height: 44px;
+  }
+
+  .community__user::after {
+    width: 44px;
+    height: 44px;
+  }
+
+  .user__title {
+    font-size: 19px;
+  }
+
+  .user__link {
+    font-size: 15px;
+  }
+
+  .stars__item {
+    width: 30px;
+    height: 30px;
+  }
+
+
+} 
+
+
+
+
 
 
 @media only screen and (min-width: 1024px) {
