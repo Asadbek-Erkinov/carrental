@@ -1146,18 +1146,359 @@ img {
   .footer__bottom-text-wrap:nth-child(1) {
     margin-right: 30px;
   }
-
+  
   .footer__bottom-text-wrap:nth-child(2) {
-
+    
   }
-
+  
   .footer__bottom-text-wrap:nth-child(3) {
     margin-top: 40px;
   }
-
+  
+  .hero__img {
+    margin-inline: auto;
+  }
+  
+  .service__item {
+    margin-inline: auto;
+  }
+  
+  .dreamcar__list {
+    width: 328px;
+    margin-inline: auto;
+    column-gap: 10px;
+  }
+  
   /* site footer styles finish */
   
 }
+
+@media only screen and (min-width: 400px) {
+  
+  .form {
+    left: 6px;
+  }
+} 
+
+@media only screen and (min-width: 405px) {
+  
+  .form {
+    left: 8px;
+  }
+} 
+
+@media only screen and (min-width: 410px) {
+  
+  .form {
+    left: 10px;
+  }
+} 
+
+@media only screen and (min-width: 415px) {
+  
+  .form {
+    left: 13px;
+  }
+} 
+
+@media only screen and (min-width: 425px) {
+  
+  .form {
+    left: 18px;
+  }
+} 
+
+@media only screen and (min-width: 435px) {
+  
+  .form {
+    left: 22px;
+  }
+} 
+
+@media only screen and (min-width: 445px) {
+  
+  .hero__text-wrapper {
+    left: 62px;
+  }
+  
+  .form {
+    left: 28px;
+  }
+} 
+
+@media only screen and (min-width: 455px) {
+  
+  .hero__img {
+    width: 402px;
+  }
+  
+  .hero__text-wrapper {
+    left: 65px;
+  }
+  
+  .form {
+    top: 300px;
+    left: 36px;
+  }
+  
+  .cars__item {
+    width: 380px;
+  }
+  
+  .cars__img {
+    width: 340px;
+  }
+} 
+
+@media only screen and (min-width: 465px) {
+  
+  .hero__img {
+    width: 402px;
+  }
+  
+  .hero__text-wrapper {
+    left: 65px;
+  }
+  
+  .form {
+    top: 306px;
+    left: 40px;
+  }
+  
+  .cars__item {
+    width: 380px;
+  }
+  
+  .cars__img {
+    width: 340px;
+  }
+} 
+
+@media only screen and (min-width: 480px) {
+  
+  .hero__img {
+    width: 430px;
+  }
+  
+  .hero__text-wrapper {
+    left: 85px;
+  }
+  
+  .form {
+    top: 330px;
+    left: 46px;
+  }
+  
+  .cars__item {
+    width: 400px;
+  }
+  
+  .cars__img {
+    width: 350px;
+  }
+  
+  .service__item {
+    width: 400px;
+  }
+} 
+
+@media only screen and (min-width: 493px) {
+  
+  .hero__img {
+    width: 430px;
+  }
+  
+  .hero__text-wrapper {
+    left: 85px;
+  }
+  
+  .form {
+    top: 330px;
+    left: 56px;
+  }
+  
+  .cars__item {
+    width: 400px;
+  }
+  
+  .cars__img {
+    width: 350px;
+  }
+  
+  .service__item {
+    width: 400px;
+  }
+  
+  .form__btn {
+    left: 295px;
+    top: -55px;
+  }
+} 
+
+@media only screen and (min-width: 503px) {
+  
+  .hero__img {
+    width: 430px;
+  }
+  
+  .hero__text-wrapper {
+    left: 85px;
+  }
+  
+  .form {
+    top: 311px;
+    left: 56px;
+  }
+  
+  .cars__item {
+    width: 400px;
+  }
+  
+  .cars__img {
+    width: 350px;
+  }
+  
+  .service__item {
+    width: 400px;
+  }
+  
+  .form__btn {
+    left: -60px;
+    top: 20px;
+  }
+} 
+
+@media only screen and (min-width: 520px) {
+  
+  .hero__img {
+    width: 465px;
+  }
+  
+  .hero__text-wrapper {
+    left: 100px;
+  }
+  
+  .form {
+    top: 342px;
+    left: 66px;
+  }
+  
+  .cars__item {
+    width: 425px;
+  }
+  
+  .cars__img {
+    width: 370px;
+  }
+  
+  .service__item {
+    width: 435px;
+  }
+  
+  .form__btn {
+    left: -60px;
+    top: 20px;
+  }
+} 
+
+@media only screen and (min-width: 550px) {
+  
+  .hero__img {
+    width: 490px;
+  }
+  
+  .hero__text-wrapper {
+    left: 119px;
+  }
+  
+  .form {
+    top: 363px;
+    left: 82px;
+  }
+  
+  .cars__item {
+    width: 445px;
+  }
+  
+  .cars__img {
+    width: 390px;
+    height: 230px;
+  }
+  
+  .service__item {
+    width: 465px;
+  }
+  
+  .form__btn {
+    left: -60px;
+    top: 20px;
+  }
+} 
+
+@media only screen and (min-width: 590px) {
+  
+  .hero__img {
+    width: 525px;
+  }
+  
+  .hero__text-wrapper {
+    left: 140px;
+  }
+  
+  .hero__title {
+    font-size: 30px;
+  }
+  
+  .hero__desc {
+    font-size: 15px;
+  }
+  
+  .form {
+    top: 391px;
+    left: 82px;
+  }
+  
+  .form__search {
+    width: 390px;
+    font-size: 18px;
+  }
+  
+  .cars__item {
+    width: 495px;
+  }
+  
+  .cars__img {
+    width: 435px;
+    height: 255px;
+  }
+  
+  .service__item {
+    width: 465px;
+  }
+  
+  .form__btn {
+    left: -60px;
+    top: 20px;
+  }
+  
+  .dreamcar__title {
+    font-size: 29px;
+  }
+  
+  .dreamcar__desc {
+    font-size: 16px;
+  }
+  
+  .service__title {
+    font-size: 29px;
+  }
+  
+  .service__desc {
+    font-size: 16px;
+  }
+  
+} 
+
 
 
 @media only screen and (min-width: 1024px) {
