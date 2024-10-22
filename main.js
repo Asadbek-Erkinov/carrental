@@ -6,6 +6,8 @@ elMenuBtn.addEventListener("click", function() {
 
   elSiteHeader.classList.add("show-menu")
 
+  elSiteHeader.classList.add("no-scroll")
+
 });
 
 elCloseBtn.addEventListener("click", function() {
