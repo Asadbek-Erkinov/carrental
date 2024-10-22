@@ -118,9 +118,15 @@
     <section class="hero">
       <div class="container">
         <div class="hero__inner">
-          <img class="hero__img" src="images/malibumobilepict.png"
+          <img class="hero__img mobile-pict" src="images/malibumobilepict.png"
           alt="malibu picture">
-          
+          <img class="hero__img table-pict" src="images/malibutable.png"
+          srcset="images/malibutable.png 1x, images/malibutable@2x.png 2x"
+          alt="Malibu table picture">
+          <img class="hero__img desktop-pict" src="images/malibudesktop.png"
+          srcset="images/malibudesktop.png 1x, images/malibudesktop@2x.png 2x"
+          alt="Malibu desktop picture">
+
           <div class="hero__text-wrapper">
             <h2 class="hero__title">
               Compact cars
@@ -377,23 +383,27 @@
         <div class="community__inner">
           
           <div class="community__text-wrapper">
-            <span class="community__span">
-              From Google
-            </span>
-            
-            <h2 class="community__title">
-              Hear what the community is saying
-            </h2>
+            <div class="community__span-wrapper">
+              <span class="community__span">
+                From Google
+              </span>
+              
+              <h2 class="community__title">
+                Hear what the community is saying
+              </h2>
+            </div>
             
             <span class="community__gradient"></span>
             
-            <p class="community__decs">
-              More interesting reviews on Instagram
-            </p>
-            
-            <a class="community__link instagram-link" href="">
-              Instagram
-            </a>
+            <div class="community__decs-wrap">
+              <p class="community__descs">
+                More interesting reviews on Instagram
+              </p>
+              
+              <a class="community__link instagram-link" href="">
+                Instagram
+              </a>
+            </div>
           </div>
           
           <div class="community__comments-wrapper">
