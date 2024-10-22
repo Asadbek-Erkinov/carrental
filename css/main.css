@@ -44,19 +44,6 @@ body {
   overflow-x: hidden;
 }
 
-/* .darkmode { */
-  /* color: var(--main-dark-text-color);
-  background-color: var(--main-dark-bg-color);
-}
-
-.darkmode .site-main {
-  background-color: none;
-}
-
-.darkmode .safe {
-  background-color: none;
-} */
-
 .no-scroll {
   overflow-y: hidden;
 }
@@ -127,7 +114,7 @@ img {
   display: flex; 
   position: fixed;
   background-color: #fff;
-  top: -4px;
+  top: 0;
   left: 100%;
   z-index: 2;
   right: 0;

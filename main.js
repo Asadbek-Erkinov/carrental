@@ -4,14 +4,14 @@ var elCloseBtn = elSiteHeader.querySelector(".js-close-btn");
 
 elMenuBtn.addEventListener("click", function() {
 
-  elSiteHeader.classList.add("show-menu")
+  elSiteHeader.classList.toggle("show-menu");
 
-  elSiteHeader.classList.add("no-scroll")
+  document.body.classList.toggle("no-scroll");
 
 });
 
 elCloseBtn.addEventListener("click", function() {
 
-  elSiteHeader.classList.remove("show-menu")
+  elSiteHeader.classList.remove("show-menu");
 
 });
