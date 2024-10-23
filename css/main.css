@@ -42,6 +42,7 @@ body {
   margin: 0;
   font-family: "Montserrat", "Arial", sans-serif;
   overflow-x: hidden;
+  background-color: #fff;
 }
 
 .no-scroll {
@@ -320,145 +321,6 @@ img {
   left: 184px;
   bottom: 49px;
 }
-
-
-.form__btn:hover {
-  background-image: url("/images/searchhover.svg");
-}
-
-.form__btn:active {
-  background-image: url("/images/searchactive.svg");
-}
-
-.dreamcar__link:hover {
-  background-color: #299764;
-  color: #fff;
-}
-
-.cars__item:hover {
-  background-color: #299764;
-  color: #fff;
-  transition: 0.3s ease-in
-}
-
-.cars__item:hover .cars__desc {
-  color: #fff;
-}
-
-.cars__item:hover .features__item:nth-child(1):before {
-  background-image: url("/images/userwhitehover.svg");
-}
-
-.cars__item:hover .features__item:nth-child(2):before {
-  background-image: url("/images/gearwhitehover.svg");
-}
-
-.cars__item:hover .features__item:nth-child(3):before {
-  background-image: url("/images/fileuserwhitehover.svg");
-}
-
-.cars__item:hover .features__item:nth-child(4):before {
-  background-image: url("/images/petrolwhitehover.svg");
-}
-
-.service__item:hover {
-  background-color: #299764;
-  color: #fff;
-  transition: 0.3s ease-in;
-}
-
-.service__item:hover .service__list-desc {
-  color: #fff;
-}
-
-.service__item:hover .service__item-inner::after {
-  background-image: url("/images/desktophover.svg");
-}
-
-.service__item:hover .service__item-innerr::after {
-  background-image: url("/images/shieldhover.svg");
-}
-
-.service__item:hover .service__item-innerrr::after {
-  background-image: url("/images/userclockhover.svg");
-}
-
-.service__item:hover .service__item-innerrrr::after {
-  background-image: url("/images/wallethover.svg");
-}
-
-.safe__item:hover {
-  background-color: #299764;
-  color: #fff;
-  transition: 0.3s ease-in;
-}
-
-
-
-.safe__item:nth-child(1):hover::after {
-  background-image: url("/images/flaskalthover.svg");
-}
-
-.safe__item:nth-child(2):hover::after {
-  background-image: url("/images/heartbeathover.svg");
-}
-
-.safe__item:nth-child(3):hover::after {
-  background-image: url("/images/folderlockwhite.svg");
-}
-
-.instagram__link {
-  background-image: url("/images/instagram.svg");
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  content: "";
-}
-
-.instagram__link:hover {
-  background-image: url("/images/instahover.svg");
-  transition: 0.3s ease-in;
-}
-
-.x__link {
-  background-image: url("/images/xpict.svg");
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  content: "";
-}
-
-.x__link:hover {
-  background-image: url("/images/xhover.svg");
-  transition: 0.3s ease-in;
-}
-
-.facebook__link {
-  background-image: url("/images/facebook.svg");
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  content: "";
-}
-
-.facebook__link:hover {
-  transition: 0.3s ease-in;
-  background-image: url("/images/facebookhover.svg");
-}
-
-.whatsapp__link {
-  background-image: url("/images/whatsapp.svg");
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  content: "";
-}
-
-.whatsapp__link:hover {
-  transition: 0.3s ease-in;
-  background-image: url("/images/whatsapphover.svg");
-}
-
 
 .table-pict {
   display: none;
@@ -1277,6 +1139,30 @@ img {
 .desktop-pict {
   display: none;
 }
+
+.site-main {
+  background-color: #fff;
+}
+
+.safe__desc {
+  margin-bottom: 10px;
+}
+
+.footer__links-wrapper {
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 5px;
+}
+
+.footer__menu-wrapper:nth-child(1) {
+  margin: 0;
+}
+
+.footer__menu-wrapper:nth-child(3) {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
 
 
 @media only screen and (min-width: 300px) {
@@ -2697,7 +2583,7 @@ img {
   .hero__img {
     width: 525px;
   }
-  
+
   .hero__text-wrapper {
     left: 140px;
   }
@@ -3499,6 +3385,144 @@ img {
 
 @media only screen and (min-width: 750px) {
   
+  .form__btn:hover {
+    background-image: url("/images/searchhover.svg");
+  }
+  
+  .form__btn:active {
+    background-image: url("/images/searchactive.svg");
+  }
+  
+  .dreamcar__link:hover {
+    background-color: #299764;
+    color: #fff;
+  }
+  
+  .cars__item:hover {
+    background-color: #299764;
+    color: #fff;
+    transition: 0.3s ease-in
+  }
+  
+  .cars__item:hover .cars__desc {
+    color: #fff;
+  }
+  
+  .cars__item:hover .features__item:nth-child(1):before {
+    background-image: url("/images/userwhitehover.svg");
+  }
+  
+  .cars__item:hover .features__item:nth-child(2):before {
+    background-image: url("/images/gearwhitehover.svg");
+  }
+  
+  .cars__item:hover .features__item:nth-child(3):before {
+    background-image: url("/images/fileuserwhitehover.svg");
+  }
+  
+  .cars__item:hover .features__item:nth-child(4):before {
+    background-image: url("/images/petrolwhitehover.svg");
+  }
+  
+  .service__item:hover {
+    background-color: #299764;
+    color: #fff;
+    transition: 0.3s ease-in;
+  }
+  
+  .service__item:hover .service__list-desc {
+    color: #fff;
+  }
+  
+  .service__item:hover .service__item-inner::after {
+    background-image: url("/images/desktophover.svg");
+  }
+  
+  .service__item:hover .service__item-innerr::after {
+    background-image: url("/images/shieldhover.svg");
+  }
+  
+  .service__item:hover .service__item-innerrr::after {
+    background-image: url("/images/userclockhover.svg");
+  }
+  
+  .service__item:hover .service__item-innerrrr::after {
+    background-image: url("/images/wallethover.svg");
+  }
+  
+  .safe__item:hover {
+    background-color: #299764;
+    color: #fff;
+    transition: 0.3s ease-in;
+  }
+  
+  
+  
+  .safe__item:nth-child(1):hover::after {
+    background-image: url("/images/flaskalthover.svg");
+  }
+  
+  .safe__item:nth-child(2):hover::after {
+    background-image: url("/images/heartbeathover.svg");
+  }
+  
+  .safe__item:nth-child(3):hover::after {
+    background-image: url("/images/folderlockwhite.svg");
+  }
+  
+  .instagram__link {
+    background-image: url("/images/instagram.svg");
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    content: "";
+  }
+  
+  .instagram__link:hover {
+    background-image: url("/images/instahover.svg");
+    transition: 0.3s ease-in;
+  }
+  
+  .x__link {
+    background-image: url("/images/xpict.svg");
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    content: "";
+  }
+  
+  .x__link:hover {
+    background-image: url("/images/xhover.svg");
+    transition: 0.3s ease-in;
+  }
+  
+  .facebook__link {
+    background-image: url("/images/facebook.svg");
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    content: "";
+  }
+  
+  .facebook__link:hover {
+    transition: 0.3s ease-in;
+    background-image: url("/images/facebookhover.svg");
+  }
+  
+  .whatsapp__link {
+    background-image: url("/images/whatsapp.svg");
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    content: "";
+  }
+  
+  .whatsapp__link:hover {
+    transition: 0.3s ease-in;
+    background-image: url("/images/whatsapphover.svg");
+  }
+  
+
   .form__search {
     width: 635px;
   }
