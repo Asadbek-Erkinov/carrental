@@ -144,6 +144,15 @@ img {
   padding: 0;
 }
 
+.footer__logo-wrap {
+  display: none;
+}
+
+.footer__links-wrapper {
+  justify-content: space-between;
+  align-content: space-between;
+}
+
 .navigation__wrapper {
   margin-top: 40px;
   display: flex;
@@ -229,6 +238,40 @@ img {
   align-items: center;
   margin-top: 70px;
   column-gap: 16px;
+}
+
+.instagram__link {
+  background-image: url("/images/instagram.svg");
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  content: "";
+}
+
+
+.x__link {
+  background-image: url("/images/xpict.svg");
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  content: "";
+}
+
+.facebook__link {
+  background-image: url("/images/facebook.svg");
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  content: "";
+}
+
+
+.whatsapp__link {
+  background-image: url("/images/whatsapp.svg");
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  content: "";
 }
 
 .navbar__dropdown {
@@ -1246,6 +1289,17 @@ img {
   }
 }
 
+@media only screen and (min-width: 345px) {
+  .footer__bottom-inner {
+    justify-content: space-between;
+  }
+
+  .footer__bottom-text-wrap:nth-child(2) {
+    margin-top: 40px;
+    margin-bottom: 20px;  
+  }
+}
+
 @media only screen and (min-width: 360px) {
   
   .hero__img {
@@ -1346,6 +1400,20 @@ img {
 
 @media only screen and (min-width: 380px) {
   
+  .footer__logo-inner {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+  }
+
+  .footer__links-wrapper {
+    row-gap: 30px;
+  }
+
+  .footer__logo-wrap {
+    display: block;
+  }
+
   .hero__img {
     width: 340px;
   }
@@ -1459,6 +1527,17 @@ img {
   .hero__img {
     width: 355px;
   }
+
+  .footer__logo-inner {
+    display: flex;
+    justify-content: space-between;
+    width: 390px;
+  }
+
+  .footer__links-wrapper {
+    row-gap: 30px;
+  }
+
   
   
   .hero__text-wrapper {
@@ -2511,6 +2590,51 @@ img {
   }
 } 
 
+@media only screen and (min-width: 516px) {
+
+  .footer__bottom-inner {
+    row-gap: 20px;
+  }
+
+  .footer__bottom-text-wrap:nth-child(1) {
+    display: none;
+  }
+
+  .footer__bottom-text-wrap:nth-child(2) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .footer__bottom-text-wrap:nth-child(3) {
+    margin-top: 0;
+  }
+
+
+  .footer__bottom-inner {
+    align-items: center;
+  }
+
+  .footer__bottom-span {
+    display: block;
+  }
+
+  .footer__logo-inner {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .footer__logo-text {
+    width: 200px;
+  }
+
+  .footer__logo-wrap {
+    width: 138px;
+    align-self: center;
+  }
+}
+
+
 @media only screen and (min-width: 520px) {
   
   .hero__img {
@@ -3090,12 +3214,12 @@ img {
   }
   
   .form__search {
-    width: 500px;
+    width: 510px;
     font-size: 20px;
   }
   
   .form__btn {
-    left: 441px;
+    left: 451px;
     top: -57px;
   }
   
@@ -3470,51 +3594,19 @@ img {
     background-image: url("/images/folderlockwhite.svg");
   }
   
-  .instagram__link {
-    background-image: url("/images/instagram.svg");
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    content: "";
-  }
-  
   .instagram__link:hover {
     background-image: url("/images/instahover.svg");
     transition: 0.3s ease-in;
-  }
-  
-  .x__link {
-    background-image: url("/images/xpict.svg");
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    content: "";
   }
   
   .x__link:hover {
     background-image: url("/images/xhover.svg");
     transition: 0.3s ease-in;
   }
-  
-  .facebook__link {
-    background-image: url("/images/facebook.svg");
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    content: "";
-  }
-  
+
   .facebook__link:hover {
     transition: 0.3s ease-in;
     background-image: url("/images/facebookhover.svg");
-  }
-  
-  .whatsapp__link {
-    background-image: url("/images/whatsapp.svg");
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    content: "";
   }
   
   .whatsapp__link:hover {
@@ -3913,6 +4005,18 @@ img {
   }
 }
 
+@media only screen and (min-width: 869px) {
+
+  .form__search {
+    width: 725px;
+  }
+
+  .form__btn {
+    left: 668px;
+  }
+}
+
+
 @media only screen and (min-width: 873px) {
   
   .hero__img {
@@ -4167,6 +4271,21 @@ img {
   
   
   
+}
+
+@media only screen and (min-width: 989px) {
+
+  .form {
+    top: 490px;
+  }
+
+  .form__search {
+    width: 800px;
+  }
+
+  .form__btn {
+
+  }
 }
 
 
